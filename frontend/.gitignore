@@ -1,0 +1,36 @@
+# dependencies
+/node_modules
+
+# build output
+*.apk
+*.aab
+*.ap_
+*.bundle
+*.jsbundle
+*.map
+*.png
+*.gradle
+/drawable-*
+/generated-*
+/release-*
+
+# OS-specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs and editors
+/.idea
+.vscode
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env*

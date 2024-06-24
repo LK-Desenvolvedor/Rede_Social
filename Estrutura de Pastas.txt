@@ -1,0 +1,66 @@
+/gerenciador_Eventos
+│
+├── /backend
+│   ├── /controllers
+│   │   ├── authController.js
+│   │   ├── eventController.js
+│   │   └── participantController.js
+│   ├── /middleware
+│   │   └── auth.js
+│   ├── /models
+│   │   ├── User.js
+│   │   ├── Event.js
+│   │   └── Participant.js
+│   ├── /routes
+│   │   ├── authRoutes.js
+│   │   ├── eventRoutes.js
+│   │   └── participantRoutes.js
+│   ├── /utils
+│   │   └── errorHandler.js
+│   ├── /docs
+│   │   └── swagger.json
+│   ├── app.js
+│   ├── database.js
+│   ├── server.js
+│   ├── package-lock.json
+│   └── package.json
+│
+├── /frontend
+│   ├── /public
+│   │   ├── /img
+│   │   │   ├── evento1.jpg
+│   │   │   ├── evento2.jpg
+│   │   │   ├── evento3.jpg
+│   │   │   └── index.html
+│   ├── /src
+│   │   ├── /pages
+│   │   │   ├── /EventForm   
+│   │   │   │   ├── EventForm.css
+│   │   │   │   └── EventForm.js
+│   │   │   ├── /EventList   
+│   │   │   │   ├── EventList.js
+│   │   │   │   └── EventList.js
+│   │   │   ├── /Home   
+│   │   │   │   ├── Home.css
+│   │   │   │   └── Home.js
+│   │   │   ├── /Login   
+│   │   │   │   ├── Login.css
+│   │   │   │   └── Login.js
+│   │   │   ├── /Register   
+│   │   │   │   ├── Register.css
+│   │   │   │   └── Register.js
+│   │   ├── /services
+│   │   │   └── api.js
+│   │   │   │
+│   │   │   │   
+│   │   │   │   
+│   │   │   │
+│   │   ├── /styles
+│   │   │   ├── App.css
+│   │   │   └── index.css
+│   │   ├── App.js
+│   │   ├── index.js
+│   ├── .env
+│   └── package.json
+│
+
