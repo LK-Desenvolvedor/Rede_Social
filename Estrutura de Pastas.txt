@@ -26,21 +26,66 @@
 │   └── package.json
 │
 ├── /frontend
-│   ├── /public
-│   │   ├── /img
-│   │   │   ├── evento1.jpg
-│   │   │   ├── evento2.jpg
-│   │   │   ├── evento3.jpg
-│   │   │   └── index.html
-│   ├── /src
-│   │   ├── /pages
-│   │   │   ├── /EventForm   
-│   │   │   │   ├── EventForm.css
-│   │   │   │   └── EventForm.js
-│   │   │   ├── /EventList   
-│   │   │   │   ├── EventList.js
-│   │   │   │   └── EventList.js
-│   │   │   ├── /Home   
+│   ├── /.expo
+│   │   ├── /types
+│   │   │   ├── router.d.ts
+│   │   │   /web
+|   |   |   ├── favicon
+|   |   |   ├── devices.json
+│   ├── /app
+│   │   ├── /(tabs)
+│   │   │   ├── ├── _layout.tsx
+│   │   │   │   ├── explore.tsx
+│   │   │   │   └── index.tsx
+│   │   │   ├── _layout   
+│   │   │   ├── +html.tsx
+│   │   │   └── +not-found.tsx
+│   ├── /assets 
+|   |   ├── /router.d.ts
+|   |   |   ├── SpaceMono-Regular.ttf 
+|   |   |   └── /images 
+|   |   /components
+|   |   ├── / __tests__
+|   |   |   ├── __snapshots__
+|   |   |   └── ThemedText-test.tsx
+|   |   ├── /navigation
+|   |   |   └── TabBarlcon.tsx
+|   |   ├── Collapsible.tsx
+|   |   ├── ExternalLink.tsx
+|   |   ├── HelloWave.tsx
+|   |   ├── ParallaxScollView.tsx
+|   |   ├── ThemedText.tsx
+|   |   └── ThemedView.tsx
+|   ├── /constants
+|   |   └── Colors.ts
+|   ├── /context
+|   |   └── authContext.js
+|   ├── /hooks
+|   |   ├── useColorScheme.ts
+|   |   ├── useColorScheme.web.ts
+|   |   └── useThemeColor.ts
+|   ├── /node_modules
+|   ├── /scripts
+|   |   └── reset-project.js
+|   ├── .gitignore
+|   ├── app.json
+|   ├── babelconfig.js
+|   ├── expo-env.d.ts
+|   ├── package-lock.json
+|   ├── package.json
+|   ├── README.md
+|   └── tsconfig.json
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        ├── router.d.ts
+
 │   │   │   │   ├── Home.css
 │   │   │   │   └── Home.js
 │   │   │   ├── /Login   

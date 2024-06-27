@@ -14,12 +14,12 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  tipo: {
-    type: String,
-    enum: ['user', 'admin'],
-    default: 'user' 
+  bio: {
+    type: String
+  },
+  avatar: {
+    type: String 
   }
-  
 });
 
 const User = mongoose.model("User", userSchema);

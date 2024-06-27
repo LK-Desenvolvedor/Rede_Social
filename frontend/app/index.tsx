@@ -1,10 +1,10 @@
 import React from 'react';
-import { Image, StyleSheet, View, TouchableOpacity, TextInput } from 'react-native';
-import { FontAwesome } from '@expo/vector-icons'; // Importando FontAwesome para ícones
-import { HelloWave } from '@/components/HelloWave';
-import ParallaxScrollView from '@/components/ParallaxScrollView';
-import { ThemedText } from '@/components/ThemedText';
-import { ThemedView } from '@/components/ThemedView';
+import { Image, StyleSheet, View, Pressable, TextInput } from 'react-native';
+import { FontAwesome } from '@expo/vector-icons'; 
+import { HelloWave } from '../app/components/HelloWave';
+import ParallaxScrollView from '../app/components/ParallaxScrollView';
+import { ThemedText } from '../app/components/ThemedText';
+import { ThemedView } from '../app/components/ThemedView';
 
 export default function HomeScreen() {
   return (
@@ -30,17 +30,17 @@ export default function HomeScreen() {
             placeholderTextColor="#aaa"
             secureTextEntry={true}
           />
-          <TouchableOpacity style={styles.loginButton}>
+          <Pressable style={styles.loginButton}>
             <ThemedText style={styles.loginButtonText}>Entrar</ThemedText>
-          </TouchableOpacity>
+          </Pressable>
         </View>
         <View style={styles.loginOptions}>
-          <TouchableOpacity>
+          <Pressable>
             <ThemedText style={styles.loginOptionText}>Esqueci minha senha</ThemedText>
-          </TouchableOpacity>
-          <TouchableOpacity>
+          </Pressable>
+          <Pressable>
             <ThemedText style={styles.loginOptionText}>Cadastre-se</ThemedText>
-          </TouchableOpacity>
+          </Pressable>
         </View>
       </View>
       <ThemedView style={styles.titleContainer}>
@@ -53,9 +53,9 @@ export default function HomeScreen() {
           Conecte-se com amigos e o mundo ao seu redor na Rede Social.
         </ThemedText>
       </ThemedView>
-      <TouchableOpacity style={styles.actionButton}>
+      <Pressable style={styles.actionButton}>
         <FontAwesome name="plus-circle" size={32} color="white" />
-      </TouchableOpacity>
+      </Pressable>
       <ThemedView style={styles.featureContainer}>
         <FontAwesome name="users" size={24} color="#333" style={styles.featureIcon} />
         <View style={styles.featureTextContainer}>
