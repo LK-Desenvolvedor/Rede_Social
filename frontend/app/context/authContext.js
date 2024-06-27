@@ -7,12 +7,10 @@ export const AuthProvider = ({ children }) => {
 
   const login = (isAdmin) => {
     setIsAuthenticated(true);
-    // Armazene mais informações, como o tipo de usuário, se necessário
   };
 
   const logout = () => {
     setIsAuthenticated(false);
-    // Remova o token do armazenamento e outros estados de autenticação
   };
 
   return (

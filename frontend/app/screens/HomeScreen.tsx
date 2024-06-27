@@ -35,7 +35,7 @@ const SignupScreen: React.FC<Props> = ({ navigation }) => {
       await AsyncStorage.setItem('token', token);
 
       Alert.alert('Cadastro bem-sucedido', 'Seu cadastro foi realizado com sucesso');
-      navigation.navigate('HomeScreen'); // Redirecionar para 'HomeScreen' após o cadastro
+      navigation.navigate('HomeScreen'); 
 
     } catch (error) {
       console.error('Erro no cadastro:', error);

@@ -1,4 +1,3 @@
-// screens/LoginScreen.tsx
 import React from 'react';
 import { View, TextInput, Pressable, Text, StyleSheet } from 'react-native';
 
@@ -7,7 +6,7 @@ const LoginScreen = () => {
   const [password, setPassword] = React.useState('');
 
   const handleLogin = () => {
-    // Lógica para fazer login aqui
+
     console.log('Login pressed with:', email, password);
   };
 

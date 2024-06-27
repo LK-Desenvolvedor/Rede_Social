@@ -30,6 +30,7 @@ export default function HomeScreen() {
             placeholderTextColor="#aaa"
             secureTextEntry={true}
           />
+          
           <Pressable style={styles.loginButton}>
             <ThemedText style={styles.loginButtonText}>Entrar</ThemedText>
           </Pressable>
@@ -50,7 +51,7 @@ export default function HomeScreen() {
       <ThemedView style={styles.introContainer}>
         <ThemedText type="subtitle">Pessoas Inspirando as Novas Tendências Universais</ThemedText>
         <ThemedText>
-          Conecte-se com amigos e o mundo ao seu redor na Rede Social.
+          Conecte-se com amigos e o mundo ao seu redor com PINTU.
         </ThemedText>
       </ThemedView>
       <Pressable style={styles.actionButton}>
@@ -91,14 +92,14 @@ const styles = StyleSheet.create({
   titleContainer: {
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'center', // Centraliza o conteúdo horizontalmente
+    justifyContent: 'center', 
     paddingHorizontal: 16,
     paddingVertical: 12,
   },
   introContainer: {
     paddingHorizontal: 16,
     paddingBottom: 12,
-    alignItems: 'center', // Centraliza o conteúdo horizontalmente
+    alignItems: 'center', 
   },
   actionButton: {
     position: 'absolute',
@@ -128,7 +129,7 @@ const styles = StyleSheet.create({
   },
   reactLogo: {
     height: 180,
-    width: '100%', // Cobrindo a largura total da tela
+    width: '100%', 
     bottom: 0,
     left: 0,
     position: 'absolute',

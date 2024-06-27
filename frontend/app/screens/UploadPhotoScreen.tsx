@@ -1,10 +1,8 @@
-// screens/UploadPhotoScreen.tsx
 import React from 'react';
 import { View, Text, Pressable, StyleSheet } from 'react-native';
 
 const UploadPhotoScreen = () => {
   const handleUpload = () => {
-    // Lógica para upload de foto aqui
     console.log('Upload photo pressed');
   };
 
