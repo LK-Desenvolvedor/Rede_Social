@@ -14,5 +14,5 @@
     ".expo/types/**/*.ts",
     "expo-env.d.ts",
     "app/services/authContext.js"
-  ]
+, "app/screens/HomeScreen.js"  ]
 }

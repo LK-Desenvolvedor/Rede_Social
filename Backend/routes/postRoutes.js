@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const postController = require('../controllers/postController');
 const authMiddleware = require('../middleware/auth');
-const upload = require('../utils/multer'); // Importe o módulo de upload
+const upload = require('../utils/multer');
 
 
 router.post('/posts', authMiddleware, upload.single('image'), postController.createPost);
